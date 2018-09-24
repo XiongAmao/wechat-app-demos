@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/classic/classic"
+  ],
+  "window": {
+    "navigationBarTitleText": "Demo",
+    "navigationBarBackgroundColor": "#5AC791",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/classic/classic",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/classic/classic",
+      "text": "日志"
+    }]
+  }
+}

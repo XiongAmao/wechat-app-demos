@@ -1,0 +1,14 @@
+.chunk {
+  height: 200pt;
+  background: #abc;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: stretch;
+}
+
+.abc {
+  /* height: 25px; */
+  background-color: red;
+  width: 30px;
+}
