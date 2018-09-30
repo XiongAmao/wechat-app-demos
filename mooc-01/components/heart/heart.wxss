@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  width: 32rpx;
+  height: 28rpx;
+}
+
+.heart {
+  height: 100%;
+  width: 100%;
+}
+
+.number {
+  position: absolute;
+  top: -28rpx;
+  right: -14rpx;
+  font-size: 18rpx;
+  color: #bbbbbb;
+}

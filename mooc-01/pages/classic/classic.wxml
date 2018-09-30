@@ -1,5 +1,3 @@
-<view class="chunk"  hover-class="none" hover-stop-propagation="false">
-  <div class="abc" wx:for="{{ what }}" wx:key="index">
-    {{ item }}
-  </div>
+<view hover-class="none" hover-stop-propagation="false">
+  <c-heart bindtap="checkLike" like="{{ like }}"></c-heart>
 </view>

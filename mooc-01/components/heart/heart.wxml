@@ -1,0 +1,12 @@
+<!--components/heart/heart.wxml-->
+<view class="container">
+  <image 
+    class="heart" 
+    src="{{ like ? '/assets/img/icon/like@2x.png' : '/assets/img/icon/dislike@2x.png'}}" 
+    mode="aspectFit" 
+    lazy-load="false" 
+  ></image>
+  <text class="number" selectable="false" space="false" decode="false">
+    {{ num }}
+  </text>
+</view>

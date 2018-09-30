@@ -1,18 +1,18 @@
-// pages/classic/classic.js
+// pages/book/search/search.js
 Page({
 
   /**
-   * 页面的初始数据, 需要必须是可以转成JSON的类型
+   * 页面的初始数据
    */
   data: {
-    like: false
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+
   },
 
   /**
@@ -62,26 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  goto() {
-    wx.navigateTo({
-      url: '/pages/about/about',
-      success: (result)=>{
-        
-      },
-      fail: (err)=>{
-        console.log(err)
-      },
-      complete: ()=>{
-        console.log('yes')
-      }
-    });
-  },
-  checkLike() {
-    const like = this.data.like
-
-    this.setData({
-      like: !like
-    })
   }
 })
